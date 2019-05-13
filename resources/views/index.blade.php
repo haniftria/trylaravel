@@ -9,6 +9,10 @@
   </head>
   <body>
     <div class="container">
+
+    <br>
+    <td><a href="./books/create" class="btn btn-info">Input</a></td>
+    <br>
     <br />
     @if (\Session::has('success'))
       <div class="alert alert-success">
